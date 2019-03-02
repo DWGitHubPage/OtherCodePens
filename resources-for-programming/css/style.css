@@ -1,0 +1,168 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+
+.wrapper > * {
+  padding: 15px;
+  flex: 1 100%;
+  max-width: 100%;
+  width: 100%;
+  
+}
+
+header {
+  background-image: linear-gradient(to   right, white, pink, pink, white);
+  border: 1px black solid;
+  border-radius: 100px;
+  font-size: 65px;
+  text-align: center;
+  text-shadow: 1.3px 1.3px snow;
+  transform: rotate(-3.4deg);
+}
+
+.main-section {
+  background: #C5D8DF;
+  font-family: "Times New Roman",      Sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.aside-1, .aside-2 {
+  background-image: linear-gradient(to   right, white, lightgreen); 
+  border: 1px black solid;
+  border-radius: 50px; 
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  text-shadow: 1px 1px white;
+}
+
+.aside-2 {
+  background-image: linear-gradient(to   left, white, lightgreen);
+  border: 1px black solid;   
+}
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 600px) {
+  .main-section    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main-section    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+a:hover.aside {
+  color: #F30C1B;
+  font-size: 28px;
+  text-shadow: .8px .8px white;
+}
+
+.reddit_links {
+  color: black;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: .3px .3px lightgrey;
+}
+a:hover.reddit_links { 
+    color: black;
+    font-size: 22px;
+    text-shadow: .3px .3px lightgrey;
+}
+
+.middle_links {
+  background-color: #E6E6FA;
+  background-color: white;
+  border: .5px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 30px;
+  text-shadow: .5px .5px lightgrey;
+  text-decoration: none;
+}
+
+a:hover.middle_links {
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 33px;
+  text-shadow: .5px .5px lightgrey;
+}
+
+main-section, p {
+  animation-duration: 2s;
+  animation-name: slidein;
+ 
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+}
+  
+to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
+
+.middle_links, a, h1, header {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+  margin-left: 100%;
+  width: 300%; 
+}
+
+to {
+  margin-left: 0%;
+  width: 100%;
+  }
+} 
+
+ body {
+  background-image: url("https://i.postimg.cc/Fsnq9bz2/c5d8df.png");
+}
+   
+code {
+  background-color: azure;
+	display: block;
+  line-height: 2;
+  margin: 10px;
+  margin-left: 35px;
+  padding: 15px;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+.footer {
+  background-image: linear-gradient(to   right, azure, pink, pink, black);
+  border: 1px black solid;
+  border-radius: 10px; 
+  font-size: 33px;
+  height: 120px;
+  margin: 4px;
+  text-align: center;
+  text-shadow: 1.3px 1.3px lightgrey;
+  transform: rotate(4deg);
+  width: 100px;
+}
