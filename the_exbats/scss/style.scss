@@ -1,0 +1,216 @@
+p:first-child:first-letter {
+  color: #CF4332; 
+  font-family: Georgia;
+  font-size: 6em;
+  initial-letter: 2;
+  text-shadow: .03em .02em black;
+}
+body {
+  background-color: #FFD97A; 
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 240px;
+  margin-right: 240px;
+  margin-left: 200px;
+  padding-top: 300px;
+  text-shadow: .1em .1em lightgrey;
+}
+
+img {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.pic1 {
+  box-shadow: 10px 10px black;
+  left: 100px;
+  position: absolute;
+  top: 25px;
+}
+
+.pic2 {
+  box-shadow: 14px 14px black;
+  position: absolute;
+  right: 70px;
+  top: 225px;
+  transform: rotate(-12deg);
+}
+
+.pic3 {
+  box-shadow: 12px 12px black;
+  position: absolute;
+  right: 1110px;
+  top: 500px;
+}
+
+.pic4 {
+  border-radius: 1px;
+  position: absolute;
+  right: 500px;
+  top: 3px;
+}
+
+.pic5 {
+  box-shadow: 9px 9px black;
+  position: absolute;
+  right: 155px;
+  top: 1200px;
+  transform: rotate(14deg);
+}
+
+.pic6 {
+  box-shadow: 13px 13px black;
+  position: absolute;
+  right: 150px;
+  top: 840px;
+  transform: rotate(-10deg);
+}
+
+.pic7 {
+  box-shadow: 12px 12px black;
+  position: absolute;
+  right: 1100px;
+  top: 225px;
+  transform: rotate(8deg);
+}
+
+.pic8 {
+  box-shadow: 10px 10px black;
+  position: absolute;
+  right: 280px;
+  top: 76px;
+  transform: rotate(8deg);
+}
+
+.pic9 {
+  box-shadow: 14px 14px black;
+  position: absolute;
+  right: 980px;
+  top: 790px;
+  transform: rotate(15deg);
+}
+
+.pic10 {
+  box-shadow: 18px 18px black;
+  position: absolute;
+  right: 905px;
+  top: 1102px;
+  transform: rotate(-7deg);
+}
+
+.pic11 {
+  box-shadow: 10px 10px black;
+  position: absolute;
+  right: 65px;
+  top: 556px;
+  transform: rotate(10deg);
+}
+img {
+  animation-duration: 3.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 3020%;
+    width: 320%; 
+  }
+
+  to {
+    margin-left: 10%;
+    width: 20%;
+  }
+}
+
+.example1 {
+ height: 60px;	
+ overflow: hidden;
+ position: relative;
+}
+
+h1 {
+  color: purple;
+  font-size: 3.5em;
+  height: 100%;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 390px;
+  width: 150%;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+  transform: translateX(100%);
+  /* Apply animation to this element */	
+ -moz-animation: example1 6s linear;
+ -webkit-animation: example1 6s linear;
+  animation: example1 6s linear;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+h2 {
+  color: #644B85;
+  font-size: 1.5em;
+  height: 100%;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 440px;
+  transition-delay: 20s;
+  width: 100%;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear;
+ -webkit-animation: example1 15s linear;
+ animation: example1 15s linear;
+}
+a:link {
+  text-decoration: none;
+  text-shadow: .1em .1em #FE0000;
+}
+h3 {
+  color: red;
+  font-size: 1.0em;
+  text-align: center;
+  text-shadow: .1em .1em white;
+}
+h4 {
+  color: black;
+  font-size: 1.1em;
+  text-align: center;
+}
+.footer {
+  background-image: linear-gradient(to   right, azure, orange, orange, azure);
+  border: 1px solid black;
+  border-radius: 5px; 
+  font-size: 1em;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  width: 950px;
+}
