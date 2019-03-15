@@ -7,14 +7,13 @@ p:first-child:first-letter {
 }
 
 body {
-  background-color: #FFD97A;
   font-size: 1.5em;
   margin-top: 15px;
   margin-bottom: 240px;
   margin-right: 240px;
   margin-left: 200px;
   padding-top: 300px;
-  text-shadow: .1em .1em lightgrey;
+  text-shadow: .1em .1em azure;
 }
 
 img {
@@ -23,7 +22,7 @@ img {
 }
 
 .pic1 {
-  box-shadow: 10px 10px black;
+  box-shadow: 12px 12px black;
   left: 100px;
   position: absolute;
   top: 25px;
@@ -60,7 +59,7 @@ img {
 }
 
 .pic6 {
-  box-shadow: 13px 13px black;
+  box-shadow: 15px 15px black;
   position: absolute;
   right: 150px;
   top: 840px;
@@ -76,7 +75,7 @@ img {
 }
 
 .pic8 {
-  box-shadow: 10px 10px black;
+  box-shadow: 9px 9px black;
   position: absolute;
   right: 280px;
   top: 76px;
@@ -84,7 +83,7 @@ img {
 }
 
 .pic9 {
-  box-shadow: 14px 14px black;
+  box-shadow: 11px 11px black;
   position: absolute;
   right: 980px;
   top: 790px;
@@ -92,7 +91,7 @@ img {
 }
 
 .pic10 {
-  box-shadow: 18px 18px black;
+  box-shadow: 22px 22px black;
   position: absolute;
   right: 905px;
   top: 1102px;
@@ -129,13 +128,14 @@ img {
 }
 
 h1 {
-  color: purple;
+  color: red;
   font-size: 3.5em;
   height: 100%;
   line-height: 50px;
   margin: 0;
   position: absolute;
   text-align: center;
+  text-shadow: .03em .03em black;
   top: 390px;
   width: 150%;
   /* Starting position */
@@ -143,9 +143,9 @@ h1 {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: example1 6s linear;
-  -webkit-animation: example1 6s linear;
-  animation: example1 6s linear;
+  -moz-animation: example1 7s linear;
+  -webkit-animation: example1 7s linear;
+  animation: example1 7s linear;
 }
 
 /* Move it (define the animation) */
@@ -183,23 +183,22 @@ h1 {
 }
 h2 {
   color: #644B85;
-  font-size: 1.5em;
+  font-size: 1.8em;
   height: 100%;
   line-height: 50px;
   margin: 0;
   position: absolute;
-  text-align: center;
+  text-shadow: .05em .05em black;
   top: 440px;
-  transition-delay: 20s;
   width: 100%;
   /* Starting position */
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: example1 15s linear;
-  -webkit-animation: example1 15s linear;
-  animation: example1 15s linear;
+  -moz-animation: example1 10s linear;
+  -webkit-animation: example1 10s linear;
+  animation: example1 10s linear;
 }
 
 a:link {
@@ -208,25 +207,25 @@ a:link {
 }
 
 h3 {
-  color: red;
+  color: purple;
   font-size: 1.0em;
   text-align: center;
-  text-shadow: .1em .1em white;
+  text-shadow: .05em .05em azure;
 }
 
 h4 {
-  color: black;
+  color: #454545;
   font-size: 1.1em;
   text-align: center;
 }
 
 .footer {
-  background-image: linear-gradient(to right, azure, orange, orange, azure);
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 1em;
+  background-color: transparent;
+  border: 1px solid azure;
+  border-radius: 15px;
+  font-size: .7em;
   height: 100px;
   position: absolute;
   text-align: center;
-  width: 950px;
+  width: 900px;
 }
