@@ -1,0 +1,422 @@
+@keyframes h1 {
+  from {background-color:         darkslategrey;}
+  to {background-color: sienna;}
+}
+
+body {
+  animation-direction: alternative;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+h1 {
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 2400px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 2400px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 2400px;
+  will-change: transform;
+}
+
+h2 {
+  animation-direction: alternate;
+  animation-duraction: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 2300px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 2300px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 2300px;
+  will-change: transform;
+} 
+  
+h3 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 2200px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 2200px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 2200px;
+  will-change: transform;
+}
+
+h4 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 2100px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 2100px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 2100px;
+  will-change: transform;
+}
+
+h5 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 2000px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 2000px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 2000px;
+  will-change: transform;
+}
+
+h6 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1900px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1900px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1900px;
+  will-change: transform;
+}
+
+
+h7 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1800px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1800px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1800px;
+  will-change: transform;
+}
+
+h8 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1700px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1700px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1700px;
+  will-change: transform;
+}
+
+h9 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1600px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1600px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1600px;
+  will-change: transform;
+}
+  
+h10 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1500px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1500px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1500px;
+  will-change: transform;
+}
+  
+h11 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1400px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1400px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1400px;
+  will-change: transform;
+}
+  
+h12 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1300px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1300px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1300px;
+  will-change: transform;
+}
+  
+h13 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1200px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1200px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1200px;
+  will-change: transform;
+}
+  
+h14 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1100px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1100px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1100px;
+  will-change: transform;
+}
+  
+h15 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 1000px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 1000px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 1000px;
+  will-change: transform;
+}
+  
+h16 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 900px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 900px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 900px;
+  will-change: transform;
+}
+  
+h17 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 800px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 800px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 800px;
+  will-change: transform;
+}
+  
+h18 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 700px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 700px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 700px;
+  will-change: transform;
+}
+  
+h19 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 600px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 600px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 600px;
+  will-change: transform;
+}
+  
+h20 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 500px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 500px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 500px;
+  will-change: transform;
+}
+
+h21 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 400px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 400px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 400px;
+  will-change: transform;
+}
+  
+h22 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 300px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 300px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 300px;
+  will-change: transform;
+}
+  
+h23 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 200px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 200px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 200px;
+  will-change: transform;
+}
+
+h24 {
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: h1;
+  border: 1px solid black;
+  border-radius: 100px;
+  box-shadow: 10px 10px 90px 30px       black;
+  height: 100px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  transform: translateZ(0);
+  width: 100px;
+  will-change: transform;
+}
