@@ -130,22 +130,19 @@ img {
 h1 {
   color: red;
   font-size: 3.5em;
-  height: 100%;
-  line-height: 50px;
-  margin: 0;
   position: absolute;
   text-align: center;
   text-shadow: .03em .03em black;
-  top: 390px;
+  top: 320px;
   width: 150%;
   /* Starting position */
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: example1 7s linear;
-  -webkit-animation: example1 7s linear;
-  animation: example1 7s linear;
+  -moz-animation: example1 8s linear;
+  -webkit-animation: example1 8s linear;
+  animation: example1 8s linear;
 }
 
 /* Move it (define the animation) */
@@ -182,14 +179,11 @@ h1 {
   }
 }
 h2 {
-  color: #644B85;
-  font-size: 1.8em;
-  height: 100%;
-  line-height: 50px;
-  margin: 0;
+  color: firebrick;
+  font-size: 3em;
   position: absolute;
-  text-shadow: .05em .05em black;
-  top: 440px;
+  text-shadow: .05em .05em lightgrey;
+  top: 370px;
   width: 100%;
   /* Starting position */
   -moz-transform: translateX(100%);
