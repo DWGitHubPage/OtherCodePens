@@ -1,0 +1,151 @@
+body {
+  background-attachment: fixed;
+  background-image: url("https://i.postimg.cc/RCWt3dTC/futuristic-city-architecture-night-lights-2-K-wallpaper.jpg"); 
+  background-position: 90%;
+  background-repeat: no-repeat;
+} 
+
+h1 {
+  box-shadow: 10px 40px 50px black, -10px -30px 40px black;
+ color: yellow;
+ font: 6rem "Baskerville", "Arial"; 
+ padding: 5px;
+ text-align: center;
+ text-shadow: .225rem .225rem   .0625rem black;
+}
+
+h2 {
+  color: hotpink;
+  font-family: Baskerville;
+  font-size: 5rem;
+  left: 110px;
+  position: absolute;
+  text-shadow: .225rem .225rem .0925rem black;
+  top: 200px;
+}
+
+h3 {
+  color: hotpink;
+  font-size: 5rem;
+  font-family: Baskerville;
+  position: absolute;
+  right: 170px;
+  top: 187px;
+  text-shadow: .225rem .225rem .0925rem black;
+}
+
+ul {
+  background: rgba(0,0,0,0.1);
+  border-color: lightgrey grey;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  box-shadow: 0rem 1rem 4rem 1rem black;
+  margin: 100px auto 0;
+  padding: 5px; 
+  overflow: hidden;
+  width: 450px;
+}
+
+ul li {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: orange red green #8900ff;
+  border-radius: 10px 8px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: .1rem .1rem 1rem .1rem black;
+  margin: 6.4px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+ul li:nth-child(1) {
+  background: rgba(155, 155, 155, .2); 
+}
+
+ul li:nth-child(2) {
+  background: rgba(155, 255, 155, .3); 
+}
+
+ul li:nth-child(3) {
+  background: rgba(255, 255, 255); 
+}
+
+ul li:nth-child(4) {
+  background: rgba(255, 155, 255, .2); 
+}
+
+ul li:nth-child(5) {
+  background: rgba(155, 155, 155, .1); 
+}
+
+ul li:nth-child(6) {
+  background: rgba(155, 255, 255, .2); 
+}
+
+ul li:nth-child(7) {
+  background: rgba(155, 155, 155, .1); 
+}
+
+ul li:nth-child(8) {
+  background: rgba(155, 355, 255, .3);
+}
+
+ul li:nth-child(9) {
+  background: rgba(255, 255, 255, .1);
+}
+
+ul li:nth-child(10) {
+  background: rgba(355, 155, 355, .3);
+}
+
+ul li:nth-child(11) {
+  background: rgba(255, 255, 255, .4);
+}
+
+ul li:nth-child(12) {
+  background: rgba(255, 355, 155, .1);
+}
+
+ul li:nth-child(13) {
+  background: rgba(255, 255, 255, .2);
+}
+
+ul li:nth-child(14) {
+  background: rgba(155, 155, 155, .2);
+}
+
+ul li:nth-child(15) {
+  background: rgba(155, 255, 155, .3);
+}
+
+.button1, .button2 {
+  color: pink;
+  font: 3.2rem "Georgia", "sans-serif";
+  text-decoration: none;
+  text-shadow: .2rem .2rem .1rem black;
+}
+
+column1 {
+  left: 40px;
+  padding-bottom: 80px;
+  position: absolute;
+  top: 270px;
+}
+
+column2 {
+  padding-bottom: 50px;
+  position: absolute;
+  top: 270px;
+  right: 100px;
+}
+
+.trail { 
+  border-radius: 150px;
+  border-style: ridge;
+  box-shadow: 1px 1px 25px 1px yellow;
+  height: 23px;
+  position: absolute;
+  width: 23px;
+}
