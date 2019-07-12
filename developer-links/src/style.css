@@ -8,7 +8,7 @@ body {
 h1 {
   box-shadow: 10px 40px 50px black, -10px -30px 40px black;
  color: yellow;
- font: 6rem "Baskerville", "Arial"; 
+ font: 6.1rem "Baskerville", "Arial"; 
  padding: 5px;
  text-align: center;
  text-shadow: .225rem .225rem   .0625rem black;
@@ -101,7 +101,7 @@ ul li:nth-child(10) {
 }
 
 ul li:nth-child(11) {
-  background: rgba(255, 255, 255, .4);
+  background: rgba(255, 255, 255, .3);
 }
 
 ul li:nth-child(12) {
