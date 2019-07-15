@@ -50,7 +50,7 @@ ul {
 
 ul li {
   background-color: rgba(255, 255, 255, 0.1);
-  border-color: orange red green #8900ff;
+  border-color: magenta red green #8900ff;
   border-radius: 10px 8px;
   border-style: solid;
   border-width: 1px;
