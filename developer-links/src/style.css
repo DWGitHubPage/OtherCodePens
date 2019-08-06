@@ -7,11 +7,11 @@ body {
 
 h1 {
   box-shadow: 10px 40px 50px black, -10px -30px 40px black;
- color: yellow;
- font: 6.1rem "Baskerville", "Arial"; 
- padding: 5px;
- text-align: center;
- text-shadow: .225rem .225rem   .0625rem black;
+  color: yellow;
+  font: 6.1rem "Baskerville", "Arial"; 
+  padding: 5px;
+  text-align: center;
+  text-shadow: .225rem .225rem   .0625rem black;
 }
 
 h2 {
@@ -30,8 +30,8 @@ h3 {
   font-family: Baskerville;
   position: absolute;
   right: 170px;
-  top: 187px;
   text-shadow: .225rem .225rem .0925rem black;
+  top: 187px;
 }
 
 ul {
@@ -40,11 +40,11 @@ ul {
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-  box-sizing: border-box;
   box-shadow: 0rem 1rem 4rem 1rem black;
-  margin: 100px auto 0;
-  padding: 5px; 
+  box-sizing: border-box;
+  margin: 100px auto 0; 
   overflow: hidden;
+  padding: 5px;
   width: 450px;
 }
 
@@ -141,8 +141,8 @@ column1 {
 column2 {
   padding-bottom: 50px;
   position: absolute;
-  top: 270px;
   right: 100px;
+  top: 270px;
 }
 
 .trail { 
