@@ -132,7 +132,7 @@ ul li:nth-child(16) {
 }
 
 column1 {
-  left: 40px;
+  left: -50px;
   padding-bottom: 80px;
   position: absolute;
   top: 270px;
