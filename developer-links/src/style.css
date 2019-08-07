@@ -3,6 +3,7 @@ body {
   background-image: url("https://i.postimg.cc/RCWt3dTC/futuristic-city-architecture-night-lights-2-K-wallpaper.jpg"); 
   background-position: 90%;
   background-repeat: no-repeat;
+  background-size: cover;
 } 
 
 h1 {
