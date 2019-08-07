@@ -61,7 +61,7 @@ ul li {
 }
 
 ul li:nth-child(1) {
-  background: rgba(155, 155, 155, .2); 
+  background: rgba(155, 155, 155, .1); 
 }
 
 ul li:nth-child(2) {
