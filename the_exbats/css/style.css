@@ -19,18 +19,17 @@ body {
 img {
   border-radius: 50%;
   padding: 10px;
+  position: absolute;
 }
 
 .pic1 {
   box-shadow: 12px 12px black;
   left: 100px;
-  position: absolute;
   top: 25px;
 }
 
 .pic2 {
   box-shadow: 14px 14px black;
-  position: absolute;
   right: 70px;
   top: 225px;
   transform: rotate(-12deg);
@@ -38,21 +37,18 @@ img {
 
 .pic3 {
   box-shadow: 12px 12px black;
-  position: absolute;
   right: 1110px;
   top: 500px;
 }
 
 .pic4 {
   border-radius: 1px;
-  position: absolute;
   right: 500px;
   top: 3px;
 }
 
 .pic5 {
   box-shadow: 9px 9px black;
-  position: absolute;
   right: 155px;
   top: 1200px;
   transform: rotate(14deg);
@@ -60,7 +56,6 @@ img {
 
 .pic6 {
   box-shadow: 15px 15px black;
-  position: absolute;
   right: 150px;
   top: 840px;
   transform: rotate(-10deg);
@@ -68,7 +63,6 @@ img {
 
 .pic7 {
   box-shadow: 12px 12px black;
-  position: absolute;
   right: 1100px;
   top: 225px;
   transform: rotate(8deg);
@@ -76,7 +70,6 @@ img {
 
 .pic8 {
   box-shadow: 9px 9px black;
-  position: absolute;
   right: 280px;
   top: 76px;
   transform: rotate(8deg);
@@ -84,7 +77,6 @@ img {
 
 .pic9 {
   box-shadow: 11px 11px black;
-  position: absolute;
   right: 980px;
   top: 790px;
   transform: rotate(15deg);
@@ -92,7 +84,6 @@ img {
 
 .pic10 {
   box-shadow: 22px 22px black;
-  position: absolute;
   right: 905px;
   top: 1102px;
   transform: rotate(-7deg);
@@ -100,7 +91,6 @@ img {
 
 .pic11 {
   box-shadow: 10px 10px black;
-  position: absolute;
   right: 65px;
   top: 556px;
   transform: rotate(10deg);
