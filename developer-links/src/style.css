@@ -15,23 +15,20 @@ h1 {
   text-shadow: .225rem .225rem   .0625rem black;
 }
 
-h2 {
+h2, h3 {
   color: hotpink;
-  font-family: Baskerville;
   font-size: 5rem;
-  left: 110px;
   position: absolute;
   text-shadow: .225rem .225rem .0925rem black;
+}
+
+h2 {
+  left: 110px;
   top: 200px;
 }
 
 h3 {
-  color: hotpink;
-  font-size: 5rem;
-  font-family: Baskerville;
-  position: absolute;
   right: 170px;
-  text-shadow: .225rem .225rem .0925rem black;
   top: 187px;
 }
 
@@ -102,7 +99,7 @@ ul li:nth-child(10) {
 }
 
 ul li:nth-child(11) {
-  background: rgba(255, 255, 255, .3);
+  background: rgba(255, 255, 255, .2);
 }
 
 ul li:nth-child(12) {
