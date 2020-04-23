@@ -156,7 +156,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
                 numCorrect++;
                 
          
-                answerContainers[i].style.color = 'lightgreen';
+                answerContainers[i].style.color = 'green';
             }
    
             else{  
@@ -166,8 +166,8 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
   
         resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length +
-      '<br/>Correct answers in green.'  +
-      '<br/>Incorrect answers in red.';
+      '<br/><font color=green>Correct answers in green.'  +
+      '<br/><font color=red>Incorrect answers in red.';
       
     }
 
