@@ -58,96 +58,26 @@ ul li {
   transition: 0.5s;
 }
 
-ul li:nth-child(1) {
+ li:nth-child(1), li:nth-child(13), li:nth-child(18) {
   background: rgba(155, 155, 155, .0); 
 }
 
-ul li:nth-child(2) {
-  background: rgba(155, 255, 155, .1); 
+li:nth-child(2), li:nth-child(4), li:nth-child(6), li:nth-child(8), 
+li:nth-child(11), li:nth-child(15), li:nth-child(17), li:nth-child(23) {
+  background: rgba(255, 255, 255, .1); 
 }
 
-ul li:nth-child(3) {
+li:nth-child(3), li:nth-child(5), li:nth-child(9), li:nth-child(12), 
+li:nth-child(19), li:nth-child(21), {
   background: rgba(255, 255, 255, .2); 
 }
 
-ul li:nth-child(4) {
-  background: rgba(255, 155, 255, .1); 
-}
-
-ul li:nth-child(5) {
-  background: rgba(155, 155, 155, .2); 
-}
-
-ul li:nth-child(6) {
-  background: rgba(155, 255, 255, .1); 
-}
-
-ul li:nth-child(7) {
+li:nth-child(7), li:nth-child(14), li:nth-child(16), li:nth-child(20) {
   background: rgba(155, 155, 155, .3); 
 }
 
-ul li:nth-child(8) {
-  background: rgba(155, 355, 255, .1);
-}
-
-ul li:nth-child(9) {
-  background: rgba(255, 255, 255, .2);
-}
-
-ul li:nth-child(10) {
-  background: rgba(355, 155, 355, .4);
-}
-
-ul li:nth-child(11) {
-  background: rgba(255, 255, 255, .1);
-}
-
-ul li:nth-child(12) {
-  background: rgba(255, 355, 155, .2);
-}
-
-ul li:nth-child(13) {
-  background: rgba(255, 255, 255, .0);
-}
-
-ul li:nth-child(14) {
-  background: rgba(155, 155, 155, .3);
-}
-
-ul li:nth-child(15) {
-  background: rgba(155, 255, 155, .1);
-}
-
-ul li:nth-child(16) {
-  background: rgba(155, 155, 355, .3);
-}
-
-ul li:nth-child(17) {
-  background: rgba(155, 155, 355, .1);
-}
-
-ul li:nth-child(18) {
-  background: rgba(155, 155, 355, .0);
-}
-
-ul li:nth-child(19) {
-  background: rgba(155, 155, 355, .2);
-}
-
-ul li:nth-child(20) {
-  background: rgba(155, 155, 355, .1);
-}
-
-ul li:nth-child(21) {
-  background: rgba(155, 155, 355, .2);
-}
-
-ul li:nth-child(22) {
+li:nth-child(10), li:nth-child(22) {
   background: rgba(155, 155, 355, .4);
-}
-
-ul li:nth-child(23) {
-  background: rgba(155, 155, 355, .2);
 }
 
 .button1, .button2 {
