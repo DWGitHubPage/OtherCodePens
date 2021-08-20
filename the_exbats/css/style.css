@@ -78,7 +78,7 @@ img {
 .pic9 {
   box-shadow: 11px 11px black;
   right: 980px;
-  top: 790px;
+  top: 830px;
   transform: rotate(15deg);
 }
 
@@ -208,7 +208,7 @@ h4 {
   background-color: transparent;
   border: 1px solid azure;
   border-radius: 15px;
-  font-size: 45px;
+  font-size: 1em;
   height: 100px;
   position: relative;
   text-align: center;
